@@ -33,7 +33,7 @@ var head = document.querySelector("h3");
 head.innerHTML = "Yah! I can write HTML content through JavaScript";
 
 // Qno.9 Answer
-var decorate = `---------@%&%@---------`;
+var decorate = `▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"`;
 alert(decorate);
 
 
