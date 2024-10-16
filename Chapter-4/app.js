@@ -11,11 +11,11 @@ var $price;
 var myName2;
 
 // illegal variables
-var 2myName;
-var last-Name;
-var user Name;
-var function;
-var @myName;
+// var 2myName;
+// var last-Name;
+// var user Name;
+// var function;
+// var @myName;
 
 //Qno.3 Answer
 
