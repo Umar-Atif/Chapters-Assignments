@@ -11,11 +11,11 @@ var $price;
 var myName2;
 
 // illegal variables
-// var 2myName;
-// var last-Name;
-// var user Name;
-// var function;
-// var @myName;
+var 2myName;
+var last-Name;
+var user Name;
+var function;
+var @myName;
 
 //Qno.3 Answer
 
@@ -24,9 +24,9 @@ var numbers = "numbers";
 var comma = ",";
 var dollar = "$";
 var underScore = "_";
-var letters = "letter"
-var sensitive = "sensitive"
-var key = "keywords"
+var letters = "letter";
+var sensitive = "sensitive";
+var key = "keywords";
 
 // a)
 var head1 = document.querySelector("#head1");
