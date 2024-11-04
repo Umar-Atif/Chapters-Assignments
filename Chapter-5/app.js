@@ -79,3 +79,20 @@ var remainder = decreament / 3;
 var div6 = document.querySelector("#div6");
 var output = remainder;
 div6.innerHTML = "The remainder is: " + output;
+
+// Qno.4 Answer
+
+var tickets = document.querySelector("#ticketsDiv");
+var ticketPrice = 600;
+var quantityofTickets = 5;
+
+tickets.innerHTML = `Total cost to buy ${quantityofTickets} tickets to a movie is ${ticketPrice * quantityofTickets}PKR`
+
+// Qno.5 Answer
+
+var tableNum = prompt("Enter any Number");
+var tableDIv = document.querySelector("#tableDiv");
+
+for(var i = 1; i <= 10; i++){
+    tableDIv.innerHTML += `${tableNum} x ${i} = ${tableNum * i} <br>`
+}
