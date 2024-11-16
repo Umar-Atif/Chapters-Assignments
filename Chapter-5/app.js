@@ -1,39 +1,39 @@
-// // Qno.1 Answer
-// var sumDiv = document.querySelector("#sumDiv");
-// var sum1 = +prompt("Enter First Number for Addition");
-// var sum2 = +prompt("Enter Second Number for Addition");
+// Qno.1 Answer
+var sumDiv = document.querySelector("#sumDiv");
+var sum1 = +prompt("Enter First Number for Addition");
+var sum2 = +prompt("Enter Second Number for Addition");
 
-// sumDiv.innerHTML = `Sum of ${sum1} and ${sum2} is ${sum1 + sum2}`;
+sumDiv.innerHTML = `Sum of ${sum1} and ${sum2} is ${sum1 + sum2}`;
 
-// // Qno.2 Answer
+// Qno.2 Answer
 
-// //Subtraction
-// var subDiv = document.querySelector("#subDiv");
-// var sub1 = +prompt("Enter First Number for Subtraction");
-// var sub2 = +prompt("Enter Second Number for Subtraction");
+//Subtraction
+var subDiv = document.querySelector("#subDiv");
+var sub1 = +prompt("Enter First Number for Subtraction");
+var sub2 = +prompt("Enter Second Number for Subtraction");
 
-// subDiv.innerHTML = `Subtraction of ${sub1} and ${sub2} is ${sub1 - sub2}`;
+subDiv.innerHTML = `Subtraction of ${sub1} and ${sub2} is ${sub1 - sub2}`;
 
-// //Multiplication
-// var mulDiv = document.querySelector("#mulDiv");
-// var mul1 = +prompt("Enter First Number for Multiplication");
-// var mul2 = +prompt("Enter Second Number for Multiplication");
+//Multiplication
+var mulDiv = document.querySelector("#mulDiv");
+var mul1 = +prompt("Enter First Number for Multiplication");
+var mul2 = +prompt("Enter Second Number for Multiplication");
 
-// mulDiv.innerHTML = `Multiplication of ${mul1} and ${mul2} is ${mul1 * mul2}`;
+mulDiv.innerHTML = `Multiplication of ${mul1} and ${mul2} is ${mul1 * mul2}`;
 
-// //Division
-// var divDiv = document.querySelector("#divDiv");
-// var div1 = +prompt("Enter First Number for Division");
-// var div2 = +prompt("Enter Second Number for Division");
+//Division
+var divDiv = document.querySelector("#divDiv");
+var div1 = +prompt("Enter First Number for Division");
+var div2 = +prompt("Enter Second Number for Division");
 
-// divDiv.innerHTML = `Division of ${div1} and ${div2} is ${div1 / div2}`;
+divDiv.innerHTML = `Division of ${div1} and ${div2} is ${div1 / div2}`;
 
-// //Modulus
-// var modDiv = document.querySelector("#modDiv");
-// var mod1 = +prompt("Enter First Number for Modulus");
-// var mod2 = +prompt("Enter Second Number for Modulus");
+//Modulus
+var modDiv = document.querySelector("#modDiv");
+var mod1 = +prompt("Enter First Number for Modulus");
+var mod2 = +prompt("Enter Second Number for Modulus");
 
-// modDiv.innerHTML = `Modulus of ${mod1} and ${mod2} is ${mod1 % mod2}`;
+modDiv.innerHTML = `Modulus of ${mod1} and ${mod2} is ${mod1 % mod2}`;
 
 // Qno.3 Answer
 
