@@ -98,6 +98,7 @@ for(var i = 1; i <= 10; i++){
 }
 
 // Qno.6 Answer
+
 var input1 = document.querySelector("#input1");
 var temperatureDiv = document.querySelector("#temperatureDiv");
 var select = document.querySelector("#selection");
@@ -110,3 +111,107 @@ function convert() {
         temperatureDiv.innerHTML +=`${input1.value}°F is ${(input1.value - 32) * 5 / 9}°C <br>`
     }
 }
+
+// Qno.7 Answer
+
+var price1 = 650;
+var price2 = 100;
+var quantity1 = 3;
+var quantity2 = 7;
+var shippingCharges = 100;
+
+var totalDiv1 = document.querySelector(".totalDiv1");
+
+var total1 = price1 * quantity1;
+var total2 = price2 * quantity2;
+
+totalDiv1.innerHTML = `
+<p style="margin: 0;">Price of item 1 is ${price1}</p>
+<p style="margin: 0;">Quantity of item 1 is ${quantity1}</p>
+<p style="margin: 0;">Price of item 2 is ${price2}</p>
+<p style="margin: 0;">Quantity of 2 item is ${quantity2}</p>
+<p style="margin: 0;">Shipping Charges ${shippingCharges}</p>
+<br>
+<p style="margin: 0;">Total cost of your order is ${total1 + total2 + shippingCharges}</p>`
+
+// Qno.8 Answer
+
+var totalMarks = 980;
+var marksObtained = 804;
+var percentage = marksObtained * 100 / totalMarks;
+
+var totalDiv2 = document.querySelector(".totalDiv2");
+
+totalDiv2.innerHTML = `
+<p style="margin: 0;">Total marks: ${totalMarks}</p>
+<p style="margin: 0;">Marks obtained: ${marksObtained}</p>
+<p style="margin: 0;">Percentage: ${percentage}%</p>`
+
+// Qno.9 Answer
+
+var dollar = 10;
+var riyal = 25;
+var dollarToPkr = 104.80
+var riyalToPkr = 28;
+
+var dollarConvertToPkr = dollar * dollarToPkr;
+var riyalConvertToPkr = riyal * riyalToPkr;
+
+var currencyDiv = document.querySelector(".currencyDiv");
+
+currencyDiv.innerHTML = `Total Currency in PKR: ${dollarConvertToPkr + riyalConvertToPkr}`
+
+// Qno.10 Answer
+
+var arithmetic = 0 + 5 * 10 / 2
+
+var arithmeticDiv = document.querySelector(".arithmeticDiv");
+
+arithmeticDiv.innerHTML = `Arithmetic Expression: ${arithmetic}`
+
+// Qno.11 Answer
+
+var currentYear = 2016;
+var birthYear = 1992;
+var yourAge = currentYear - birthYear;
+
+var birthAgeDiv = document.querySelector(".birthAgeDiv");
+
+birthAgeDiv.innerHTML = `
+<p style="margin: 0;">Current Year: ${currentYear}</p>
+<p style="margin: 0;">Birth Year: ${birthYear}</p>
+<p style="margin: 0;">Your Age is: ${yourAge}</p>`
+
+// Qno.12 Answer
+
+var π = 3.142
+var radius = 20;
+var radiusSquare = radius * radius;
+var circumference = 2 * π * radius;
+var area = π * radiusSquare;
+
+var circleDiv = document.querySelector(".circleDiv");
+
+circleDiv.innerHTML = `
+<p style="margin: 0;">Radius of a circle: ${radius}</p>
+<p style="margin: 0;">The circumference is: ${circumference}</p>
+<p style="margin: 0;">The area is: ${area}</p>`
+
+// Qno.13 Answer
+
+var favouriteSnack = 'chocolate chip'
+var currentAge = 15;
+var maximumAge = 65;
+var amountOfSnacks = 3;
+
+var yearsLeft = maximumAge - currentAge;
+var totalSnacks = yearsLeft * amountOfSnacks;
+
+var calculatorDiv = document.querySelector(".calculatorDiv");
+
+calculatorDiv.innerHTML = `
+<p style="margin: 0;">Favourite Snack: ${favouriteSnack}</p>
+<p style="margin: 0;">Current age: ${currentAge}</p>
+<p style="margin: 0;">Estimated Maximum Age: ${maximumAge}</p>
+<p style="margin: 0;">Amount of snacks per day: ${amountOfSnacks}</p>
+<p style="margin: 0;">You will need ${totalSnacks} ${favouriteSnack} to last you until the ripe old age is ${maximumAge}</p>`
